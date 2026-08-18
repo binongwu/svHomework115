@@ -17,7 +17,7 @@ export default function Home() {
     <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative' }}>
       <header style={{ textAlign: 'center', marginBottom: '4rem', marginTop: '2rem' }}>
         <div style={{ display: 'inline-block', padding: '0.25rem 1rem', background: '#e0e7ff', color: 'var(--primary)', borderRadius: '20px', fontWeight: 600, fontSize: '0.875rem', marginBottom: '1rem' }}>
-          五零八班專屬
+          608專屬
         </div>
         <h1 style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--text-main)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
           115暑假自主學習成果展
