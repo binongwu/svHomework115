@@ -3,10 +3,10 @@ import { createPortal } from 'react-dom';
 import { FileText, Play, X, Image, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const mockData: any[] = [
-  { id: 4, title: '陳崇名', author: '陳崇名', type: 'canva', url: 'https://docs.google.com/presentation/d/1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI/embed?start=false&loop=false&delayms=3000' },
-  { id: 9, title: '李承翰', author: '李承翰', type: 'pdf', url: 'https://drive.google.com/file/d/11a5zkMSzl8uL0qpJetueuvF2ttr9flxX/preview' },
-  { id: 31, title: '謝棋芝', author: '謝棋芝', type: 'canva', url: 'https://docs.google.com/presentation/d/1qC_NQ1pnAIM1G3SEyTtkSP7HFZgMGr-sDFbByljwTOA/embed?start=false&loop=false&delayms=3000' },
-  { id: 34, title: '連晨希', author: '連晨希', type: 'pdf', url: 'https://drive.google.com/file/d/1mUpPXuYYaggMxteUvQZgffATDrXwAd3p/preview' }
+  { id: 4, title: '陳崇名', author: '陳崇名', type: 'canva', url: 'https://docs.google.com/presentation/d/1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI&sz=w800' },
+  { id: 9, title: '李承翰', author: '李承翰', type: 'pdf', url: 'https://drive.google.com/file/d/11a5zkMSzl8uL0qpJetueuvF2ttr9flxX/preview', thumbnail: 'https://drive.google.com/thumbnail?id=11a5zkMSzl8uL0qpJetueuvF2ttr9flxX&sz=w800' },
+  { id: 31, title: '謝棋芝', author: '謝棋芝', type: 'canva', url: 'https://docs.google.com/presentation/d/1qC_NQ1pnAIM1G3SEyTtkSP7HFZgMGr-sDFbByljwTOA/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1qC_NQ1pnAIM1G3SEyTtkSP7HFZgMGr-sDFbByljwTOA&sz=w800' },
+  { id: 34, title: '連晨希', author: '連晨希', type: 'pdf', url: 'https://drive.google.com/file/d/1mUpPXuYYaggMxteUvQZgffATDrXwAd3p/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1mUpPXuYYaggMxteUvQZgffATDrXwAd3p&sz=w800' }
 ];
 
 export default function Home() {
