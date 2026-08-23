@@ -75,6 +75,32 @@ export default function Home() {
         <ItemModal item={selectedItem} onClose={() => setSelectedItem(null)} />
       )}
     </div>
+
+    <div style={{ 
+      width: 'calc(100% + 4rem)', 
+      position: 'relative', 
+      marginLeft: '-2rem',
+      marginTop: '-4vw',
+      marginBottom: '-2rem',
+      display: 'flex',
+      justifyContent: 'center',
+      zIndex: -1,
+      pointerEvents: 'none'
+    }}>
+      <img 
+        src="/footer.png" 
+        alt="Footer Logo" 
+        style={{ 
+          width: '100%', 
+          height: 'auto',
+          maxHeight: '60vh',
+          objectFit: 'cover',
+          objectPosition: 'center bottom',
+          WebkitMaskImage: 'linear-gradient(to top, black 40%, transparent 100%)',
+          maskImage: 'linear-gradient(to top, black 40%, transparent 100%)'
+        }} 
+      />
+    </div>
     </>
   );
 }
