@@ -15,7 +15,7 @@ const mockData: any[] = [
   { id: 11, title: '林宥任', author: '林宥任', type: 'pdf', url: 'https://drive.google.com/file/d/1cvcY3g7Am9eVZtj8i8Ut5IxdSnh3PRS1/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1cvcY3g7Am9eVZtj8i8Ut5IxdSnh3PRS1&sz=w800' },
   { id: 12, title: '華紹硯', author: '華紹硯', type: 'canva', url: 'https://docs.google.com/presentation/d/1uwa0okUZ1lg4dUJSop6dJIKS84TPdnLn/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1uwa0okUZ1lg4dUJSop6dJIKS84TPdnLn&sz=w800' },
   { id: 13, title: '邱柏翔', author: '邱柏翔', type: 'pdf', url: 'https://drive.google.com/file/d/19OilLQ5EOnQlX1Q3TGqkofUnjeIQDb_c/preview', thumbnail: 'https://drive.google.com/thumbnail?id=19OilLQ5EOnQlX1Q3TGqkofUnjeIQDb_c&sz=w800' },
-  { id: 15, title: '周翊騰', author: '周翊騰', type: 'pdf', url: '' },
+  { id: 15, title: '周翊騰', author: '周翊騰', type: 'canva', url: 'https://www.canva.com/design/DAHRZSpo7Cg/EyfO35Bhi0tneYAF9MyJZg/view?embed' },
   { id: 21, title: '徐維蔓', author: '徐維蔓', type: 'pdf', url: 'https://drive.google.com/file/d/1h8f_QLYv2aAn85ZGjxgH3DMofjJ1tO6YwtTRncxV8Wo/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1h8f_QLYv2aAn85ZGjxgH3DMofjJ1tO6YwtTRncxV8Wo&sz=w800' },
   { id: 22, title: '華紹帆', author: '華紹帆', type: 'canva', url: 'https://docs.google.com/presentation/d/1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0&sz=w800' },
   { id: 23, title: '王晨希', author: '王晨希', type: 'youtube', url: 'https://www.youtube.com/embed/LISoFzvhin0', thumbnail: 'https://img.youtube.com/vi/LISoFzvhin0/maxresdefault.jpg' },
