@@ -44,10 +44,11 @@ export default function Home() {
         left: '50%', 
         transform: 'translateX(-50%)',
         marginTop: '-2rem',
-        marginBottom: '1rem',
+        marginBottom: '0',
         display: 'flex',
         justifyContent: 'center',
-        zIndex: -1
+        zIndex: -1,
+        pointerEvents: 'none'
       }}>
         <img 
           src="/logo.png" 
@@ -63,15 +64,7 @@ export default function Home() {
           }} 
         />
       </div>
-      <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative' }}>
-        <header style={{ textAlign: 'center', marginBottom: '4rem', marginTop: '1rem' }}>
-        <div style={{ display: 'inline-block', padding: '0.25rem 1rem', background: '#e0e7ff', color: 'var(--primary)', borderRadius: '20px', fontWeight: 600, fontSize: '0.875rem', marginBottom: '1rem' }}>
-          608專屬
-        </div>
-        <h1 style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--text-main)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
-          115暑假自主學習成果展
-        </h1>
-      </header>
+      <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', marginTop: '-12vw', padding: '0 1rem' }}>
       
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '2rem' }}>
         {shuffledData.map((item) => (
