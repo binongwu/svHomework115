@@ -64,7 +64,7 @@ export default function Home() {
           }} 
         />
       </div>
-      <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', marginTop: '-12vw', padding: '0 1rem' }}>
+      <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', marginTop: '-4vw', padding: '0 1rem' }}>
       
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '2rem' }}>
         {shuffledData.map((item) => (
