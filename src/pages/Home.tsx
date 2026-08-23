@@ -20,7 +20,7 @@ const mockData: any[] = [
   { id: 22, title: '華紹帆', author: '華紹帆', type: 'canva', url: 'https://docs.google.com/presentation/d/1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0&sz=w800' },
   { id: 23, title: '王晨希', author: '王晨希', type: 'youtube', url: 'https://www.youtube.com/embed/LISoFzvhin0', thumbnail: 'https://img.youtube.com/vi/LISoFzvhin0/maxresdefault.jpg' },
   { id: 24, title: '楊銥諠', author: '楊銥諠', type: 'canva', url: 'https://docs.google.com/presentation/d/1YjHAazM62xN5QOpsT2KeGMNaAL8tZjPb/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1YjHAazM62xN5QOpsT2KeGMNaAL8tZjPb&sz=w800' },
-  { id: 26, title: '范芝綾', author: '范芝綾', type: 'pdf', url: '' },
+  { id: 26, title: '范芝綾', author: '范芝綾', type: 'video', url: 'https://drive.google.com/file/d/1wmMWjLuygSvVqPHmWH0i1y483w7mJ9cJ/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1wmMWjLuygSvVqPHmWH0i1y483w7mJ9cJ&sz=w800' },
   { id: 27, title: '劉芷安', author: '劉芷安', type: 'pdf', url: 'https://drive.google.com/file/d/1RE7VlSUodHfidaPEZ1mFzejpmbK1hBdi/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1RE7VlSUodHfidaPEZ1mFzejpmbK1hBdi&sz=w800' },
   { id: 28, title: '馬頤菲', author: '馬頤菲', type: 'pdf', url: 'https://drive.google.com/file/d/1b0iYdOZZNzwGC0YFUk0V81NPTDICVzcL/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1b0iYdOZZNzwGC0YFUk0V81NPTDICVzcL&sz=w800' },
   { id: 29, title: '王沂安', author: '王沂安', type: 'pdf', url: 'https://drive.google.com/file/d/1evC-MnxFxy0NYpO_WjkGQwIU4I2ouAkf/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1evC-MnxFxy0NYpO_WjkGQwIU4I2ouAkf&sz=w800' },
