@@ -39,10 +39,9 @@ export default function Home() {
   return (
     <>
       <div style={{ 
-        width: '100vw', 
+        width: 'calc(100% + 4rem)', 
         position: 'relative', 
-        left: '50%', 
-        transform: 'translateX(-50%)',
+        marginLeft: '-2rem',
         marginTop: '-2rem',
         marginBottom: '0',
         display: 'flex',
