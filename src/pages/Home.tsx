@@ -8,8 +8,8 @@ const mockData: any[] = [
   { id: 4, title: '陳崇名', author: '陳崇名', type: 'canva', url: 'https://docs.google.com/presentation/d/1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI&sz=w800' },
   { id: 5, title: '王晨佑', author: '王晨佑', type: 'youtube', url: 'https://www.youtube.com/embed/yfBPNmHOdt4', thumbnail: 'https://img.youtube.com/vi/yfBPNmHOdt4/maxresdefault.jpg' },
   { id: 6, title: '林楷鈞', author: '林楷鈞', type: 'pdf', url: '' },
-  { id: 7, title: '許睿旂', author: '許睿旂', type: 'canva', url: 'https://docs.google.com/presentation/d/18CrlRiO8y0ODSTx9O5hZyVciwMcvE0uc/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=18CrlRiO8y0ODSTx9O5hZyVciwMcvE0uc&sz=w800' },
-  { id: 8, title: '馬頤中', author: '馬頤中', type: 'pdf', url: 'https://drive.google.com/file/d/1_cM1yMtsClT5fJ1NYYiQkH5EbHcfQCne/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1_cM1yMtsClT5fJ1NYYiQkH5EbHcfQCne&sz=w800' },
+  { id: 7, title: '許睿旂', author: '許睿旂', type: 'canva', url: 'https://docs.google.com/presentation/d/18CrlRiO8y0ODSTx9O5hZyVciwMcvE0uc/embed?start=false&loop=false&delayms=3000' },
+  { id: 8, title: '馬頤中', author: '馬頤中', type: 'pdf', url: 'https://drive.google.com/file/d/1_cM1yMtsClT5fJ1NYYiQkH5EbHcfQCne/preview' },
   { id: 9, title: '李承翰', author: '李承翰', type: 'pdf', url: 'https://drive.google.com/file/d/11a5zkMSzl8uL0qpJetueuvF2ttr9flxX/preview', thumbnail: 'https://drive.google.com/thumbnail?id=11a5zkMSzl8uL0qpJetueuvF2ttr9flxX&sz=w800' },
   { id: 10, title: '陳韋豪', author: '陳韋豪', type: 'pdf', url: 'https://drive.google.com/file/d/1E065C4fFh7fRxInQV0hbkt4jXR3EuTuX/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1E065C4fFh7fRxInQV0hbkt4jXR3EuTuX&sz=w800' },
   { id: 11, title: '林宥任', author: '林宥任', type: 'pdf', url: 'https://drive.google.com/file/d/1cvcY3g7Am9eVZtj8i8Ut5IxdSnh3PRS1/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1cvcY3g7Am9eVZtj8i8Ut5IxdSnh3PRS1&sz=w800' },
@@ -19,7 +19,7 @@ const mockData: any[] = [
   { id: 21, title: '徐維蔓', author: '徐維蔓', type: 'pdf', url: 'https://drive.google.com/file/d/1h8f_QLYv2aAn85ZGjxgH3DMofjJ1tO6YwtTRncxV8Wo/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1h8f_QLYv2aAn85ZGjxgH3DMofjJ1tO6YwtTRncxV8Wo&sz=w800' },
   { id: 22, title: '華紹帆', author: '華紹帆', type: 'canva', url: 'https://docs.google.com/presentation/d/1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1P3e43vKL1hVXUsPUe42fsv9TffGC2C_0&sz=w800' },
   { id: 23, title: '王晨希', author: '王晨希', type: 'youtube', url: 'https://www.youtube.com/embed/LISoFzvhin0', thumbnail: 'https://img.youtube.com/vi/LISoFzvhin0/maxresdefault.jpg' },
-  { id: 24, title: '楊銥諠', author: '楊銥諠', type: 'canva', url: 'https://docs.google.com/presentation/d/1YjHAazM62xN5QOpsT2KeGMNaAL8tZjPb/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1YjHAazM62xN5QOpsT2KeGMNaAL8tZjPb&sz=w800' },
+  { id: 24, title: '楊銥諠', author: '楊銥諠', type: 'canva', url: 'https://docs.google.com/presentation/d/1YjHAazM62xN5QOpsT2KeGMNaAL8tZjPb/embed?start=false&loop=false&delayms=3000' },
   { id: 26, title: '范芝綾', author: '范芝綾', type: 'video', url: 'https://drive.google.com/file/d/1wmMWjLuygSvVqPHmWH0i1y483w7mJ9cJ/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1wmMWjLuygSvVqPHmWH0i1y483w7mJ9cJ&sz=w800' },
   { id: 27, title: '劉芷安', author: '劉芷安', type: 'pdf', url: 'https://drive.google.com/file/d/1RE7VlSUodHfidaPEZ1mFzejpmbK1hBdi/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1RE7VlSUodHfidaPEZ1mFzejpmbK1hBdi&sz=w800' },
   { id: 28, title: '馬頤菲', author: '馬頤菲', type: 'pdf', url: 'https://drive.google.com/file/d/1b0iYdOZZNzwGC0YFUk0V81NPTDICVzcL/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1b0iYdOZZNzwGC0YFUk0V81NPTDICVzcL&sz=w800' },
@@ -29,6 +29,8 @@ const mockData: any[] = [
   { id: 33, title: '張芸榕', author: '張芸榕', type: 'pdf', url: 'https://drive.google.com/file/d/1hSJrgt1MvifVAWo6ZhqLhTtKOZuK1tEo/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1hSJrgt1MvifVAWo6ZhqLhTtKOZuK1tEo&sz=w800' },
   { id: 34, title: '連晨希', author: '連晨希', type: 'pdf', url: 'https://drive.google.com/file/d/1mUpPXuYYaggMxteUvQZgffATDrXwAd3p/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1mUpPXuYYaggMxteUvQZgffATDrXwAd3p&sz=w800' },
 ];
+
+const shuffledData = [...mockData].sort(() => Math.random() - 0.5);
 
 export default function Home() {
   const [selectedItem, setSelectedItem] = useState<any | null>(null);
@@ -46,7 +48,7 @@ export default function Home() {
       </header>
       
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '2rem' }}>
-        {mockData.map((item) => (
+        {shuffledData.map((item) => (
           <ResultCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
         ))}
       </div>
