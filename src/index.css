@@ -22,7 +22,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: var(--bg-color);
+  background: linear-gradient(180deg, #EAF7FC 0%, #F4F8FA 40%, #F7F8F9 100%);
+  background-attachment: fixed;
   color: var(--text-main);
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
