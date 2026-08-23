@@ -37,8 +37,34 @@ export default function Home() {
 
 
   return (
-    <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative' }}>
-      <header style={{ textAlign: 'center', marginBottom: '4rem', marginTop: '2rem' }}>
+    <>
+      <div style={{ 
+        width: '100vw', 
+        position: 'relative', 
+        left: '50%', 
+        transform: 'translateX(-50%)',
+        marginTop: '-2rem',
+        marginBottom: '1rem',
+        display: 'flex',
+        justifyContent: 'center',
+        zIndex: -1
+      }}>
+        <img 
+          src="/logo.png" 
+          alt="Banner Logo" 
+          style={{ 
+            width: '100%', 
+            height: 'auto',
+            maxHeight: '60vh',
+            objectFit: 'cover',
+            objectPosition: 'center top',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)',
+            maskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)'
+          }} 
+        />
+      </div>
+      <div className="animate-fade-in" style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative' }}>
+        <header style={{ textAlign: 'center', marginBottom: '4rem', marginTop: '1rem' }}>
         <div style={{ display: 'inline-block', padding: '0.25rem 1rem', background: '#e0e7ff', color: 'var(--primary)', borderRadius: '20px', fontWeight: 600, fontSize: '0.875rem', marginBottom: '1rem' }}>
           608專屬
         </div>
@@ -57,6 +83,7 @@ export default function Home() {
         <ItemModal item={selectedItem} onClose={() => setSelectedItem(null)} />
       )}
     </div>
+    </>
   );
 }
 
