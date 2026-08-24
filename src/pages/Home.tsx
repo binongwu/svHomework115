@@ -7,7 +7,7 @@ const mockData: any[] = [
   { id: 3, title: '張人杰', author: '張人杰', type: 'pdf', url: 'https://drive.google.com/file/d/1GJpsntmOwJabAsgmbNgBvzWfV2O7irbf/preview', thumbnail: 'https://drive.google.com/thumbnail?id=1GJpsntmOwJabAsgmbNgBvzWfV2O7irbf&sz=w800' },
   { id: 4, title: '陳崇名', author: '陳崇名', type: 'canva', url: 'https://docs.google.com/presentation/d/1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI/embed?start=false&loop=false&delayms=3000', thumbnail: 'https://drive.google.com/thumbnail?id=1jkvaxyUxGtm8wF_xFBGYYYdcLbN98lDI&sz=w800' },
   { id: 5, title: '王晨佑', author: '王晨佑', type: 'youtube', url: 'https://www.youtube.com/embed/yfBPNmHOdt4', thumbnail: 'https://img.youtube.com/vi/yfBPNmHOdt4/maxresdefault.jpg' },
-  { id: 6, title: '林楷鈞', author: '林楷鈞', type: 'video', url: 'https://drive.google.com/file/d/1Abd3jhNC1T5K64Sj0eA531Pp73GSHXEQ/preview' },
+  { id: 6, title: '林楷鈞', author: '林楷鈞', type: 'video', url: 'https://drive.google.com/file/d/1Abd3jhNC1T5K64Sj0eA531Pp73GSHXEQ/preview', thumbnail: '/thumbnails/6.png' },
   { id: 7, title: '許睿旂', author: '許睿旂', type: 'canva', url: 'https://docs.google.com/presentation/d/18CrlRiO8y0ODSTx9O5hZyVciwMcvE0uc/embed?start=false&loop=false&delayms=3000', thumbnail: '/thumbnails/7.png' },
   { id: 8, title: '馬頤中', author: '馬頤中', type: 'pdf', url: 'https://drive.google.com/file/d/1_cM1yMtsClT5fJ1NYYiQkH5EbHcfQCne/preview', thumbnail: '/thumbnails/8.png' },
   { id: 9, title: '李承翰', author: '李承翰', type: 'pdf', url: 'https://drive.google.com/file/d/11a5zkMSzl8uL0qpJetueuvF2ttr9flxX/preview', thumbnail: 'https://drive.google.com/thumbnail?id=11a5zkMSzl8uL0qpJetueuvF2ttr9flxX&sz=w800' },
